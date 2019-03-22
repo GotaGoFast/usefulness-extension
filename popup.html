@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <div>
+        <style>
+            body {
+            background-image: url("background.jpg");
+            background-color: #cccccc;
+            background-size: "stretch"
+            }
+            </style>
+    </div>
+    <!--background image-->
+</head>
+
+<body>
+    <font face="verdana">
+        <div>
+            <font color="purple">
+            <h1>hello! Welcome to the usefulness extension!</h1>
+            </font>
+        </div>
+        <div>
+            <font color="red">
+                <p>_____________________________________________________</p>
+            </font>
+        </div>
+        <!--divider 1-->
+        <div>
+                <p>generate a random integer between 0 and</p>
+            <input id="randomNumInput" type="number" value="100" class="input">
+            <button class="button" id="generateANum">generate!</button>
+            <strong>
+                <p id="generatedNum"></p>
+            </strong>
+        </div>
+        <!--random number generator-->
+        <div>
+            <font color="red">
+                <p>_____________________________________________________</p>
+            </font>
+        </div>
+        <!--divider 2-->
+        <div>
+            <style>
+                .button {
+                    background-color:darkorange;
+                    cursor: pointer;
+                    display: inline-block;
+                    color: black;
+                    border: none;
+                    padding: 5px 5px;
+                }
+                input[type=number],
+                select {
+                    width: 100px;
+                    padding: 5px 5px;
+                    margin: none;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+            </style>
+        </div>
+        <div>
+            <button id="generateAQuote" class="button">generate a quote</button>
+            <p id="generatedQuote"></p>
+        </div>
+        <!--quote generator-->
+        <div>
+            <font color="red">
+                <p>_____________________________________________________</p>
+            </font>
+        </div>
+        <!--divider 3-->
+        <div>
+            <button class="button" id="airhorn">airhorn!</button>
+            <button class="button" id="14khzSound">annoying sound!</button>
+            <button class="button" id="yee">yee</button>
+        </div>
+        <!--sound buttons-->
+    </font>
+</body>
+<script src="popup.js"></script>
+
+</html>
